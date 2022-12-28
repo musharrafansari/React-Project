@@ -1,29 +1,22 @@
 
 .about-container{
     width: 100%;
-    background-image: url('../assets/aboutbackground.jpg');
+    background-image: url('../images/aboutbackground.jpg');
+    background-color: aqua;
     background-size: cover;
-    background-repeat: no-repeat;
     position: absolute;
     height: 86vh;
     width: 98vw;
     background-position: center;
     display: grid;
-    grid-template-columns: (2 1fr);
-    z-index: -1;
     overflow: auto;
     margin-top: 50%;
     margin-inline: auto;
-    outline-style: outset;
-
-
-
     
 }
 
 .heading{
   padding-left: 35rem;
-  text-shadow: 2px 2px 5px red;
   text-decoration: underline;
   margin-bottom: 0
   
@@ -39,7 +32,6 @@
   margin-top: -12rem;
   padding-left: 35rem;
   background-color: antiquewhite;
-  text-align: justify;
   padding-right: 2rem;
   color: rgba(85, 45, 45, 0.993);
   font-size: 20px;

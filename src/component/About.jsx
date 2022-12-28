@@ -1,6 +1,6 @@
 import React from "react";
 import './About.css'
-import Image1 from '../assets/gym.jpeg'
+import Image1 from '../images/gym.jpeg'
 
 
 
@@ -12,23 +12,12 @@ const About = () => {
 <section>
     <div className="about-container">
     
-       <div className="heading"><h1>About Us</h1></div>
+       <div className="heading"><h1>About</h1></div>
        <div>
-      <p className="details">The Gym Fitness Institute offers Fitness Training Courses. It offers
-      certificate courses in Fitness Management, Personal Training
-      Certification and Spinning Instructing and various short courses. It
-      covers a range of subjects to comprehensively address and ensure the
-      best international brand practices. The 3 month courses are
-      monitored by qualified personnel of the Gym, fitness coach and also
-      hosts guest lectures by the biggest names in the international
-      fitness industry with guaranteed internships and a first-hand
-      opportunity to experience fitness training from the world leaders in
-      it. GGFI offers the most exciting and up-to-date education pathway
-      to gain industry leading qualifications as a personal trainer as
-      well as ongoing training in all aspects of the fitness industry.</p>
+      <p className="details">At THE GYM, our mission is to provide you with the ultimate fitness experience, one that focuses on your specific fitness needs, helps you achieve the results you are after and invigorates your soul. We guarantee the highest quality equipment and training programs available, an expert staff, special amenities that are often not found in other health clubs, attentive service and truly sophisticated surroundings. Our every Fitness training center is committed to being a unique Fitness training center in india.</p>
       
     
-    <p><img className="image" src={Image1} alt="logoImg"/></p>
+    <p><img className="image" src={Image1} alt="logImg"/></p>
       </div>
 
     </div>

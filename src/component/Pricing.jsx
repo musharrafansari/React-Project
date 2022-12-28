@@ -1,15 +1,15 @@
 import React from "react";
 import "./Pricing.css";
-import trainer1 from "../assets/trainer1.jpg";
-import trainer2 from "../assets/trainer2.jpg";
-import trainer3 from "../assets/trainer3.jpg";
+import trainer1 from "../images/trainer1.jpg";
+import trainer2 from "../images/trainer2.jpg";
+import trainer3 from "../images/trainer3.jpg";
 
 const Pricing = () => {
   return (
     <section className="page">
         <br/>
         <br/>
-        <h1 className="headings">Meet With Our Professional Trainers</h1>
+        <h1 className="headings">Meet With Our  Trainers</h1>
         <br/>
         <br/>
         <br/>
@@ -26,17 +26,17 @@ const Pricing = () => {
           <div className="pricing__item">
             <div className="pricing__card-top">
               <h2 className="section__title">
-                $100 <span> / Month </span>
+                $200 <span> / Month </span>
               </h2>
               <h2 className="pricing section__title">SILVER PLAN</h2>
             </div>
 
             <div className="services">
               <ul>
+              <li>Gymnastics</li>
                 <li>Open Gym</li>
-                <li>Gymnastics</li>
                 <li>CrossFit</li>
-                <li>Yoga</li>
+               
               </ul>
               <button className="register__btn">Start Free Trial</button>
             </div>
@@ -55,7 +55,7 @@ const Pricing = () => {
                 <li>Open Gym</li>
                 <li>Gymnastics</li>
                 <li>Swimming</li>
-                <li>Kickboxing</li>
+              
               </ul>
               <button className="register__btn">Start Free Trial</button>
             </div>
@@ -73,7 +73,7 @@ const Pricing = () => {
               <ul>
                 <li>Open Gym</li>
                 <li>Gymnastics</li>
-                <li>CrossFit</li>
+             
                 <li>Personal Trainer</li>
               </ul>
               <button className="register__btn">Start Free Trial</button>

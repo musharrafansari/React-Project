@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import './Navbar.css';
-import Logo from '../assets/logo.png'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import Logo from '../images/logo.png'
+// import {FaBars, FaTimes} from 'react-icons/fa'
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -14,7 +14,7 @@ const changeColor =()=>{
     setColor(false)
   }
 }
-window.addEventListener("scroll", changeColor);
+
 
   return (
     <>
@@ -22,11 +22,7 @@ window.addEventListener("scroll", changeColor);
     <nav className='main-nav'>
     <div><img className="logo-img" src={Logo} alt="logoImg"/></div>
     <div className='logo'>
-    <h2>
-    <span className='part1'>Vella </span>
-    
-    <span className='part2'>GYM</span>
-    </h2>
+ 
     </div>
 
     <div className='menu'>
@@ -44,15 +40,8 @@ window.addEventListener("scroll", changeColor);
     </div>
 
     <div>
-    <button className='btn'><span> Register Now</span></button>
+    <button className='btn'><span> Register </span></button>
     </div>   
-
-    <div className='hamburger' onClick={handleClick}>
-     {click ? (<FaTimes size={40} style={{color: "red"}}/>) : (
-     <FaBars size={40} style={{color: "blue"}}/>)}
-     </div>
-   
-    
     </nav>
     </div>
 

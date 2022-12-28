@@ -11,11 +11,10 @@ const About = () => {
         <div className="text">
           <h1>MAKE YOU A BODY BUILDER </h1>
           <h2>
-            We provide our best opportunity and qualified trainers for best
-            workout as you want
+            We provide our best opportunity and qualified trainers.
           </h2>
         
-        <button className='button'>Get Started</button>
+        <button className='button'>signup now</button>
        
         </div>
       </div>
