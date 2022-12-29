@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import About from "./component/About";
 import Pricing from "./component/Pricing";
+// import Footer from "./component/Footer";
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <Home />
     <About />
     <Pricing /> 
+    
     </>
   );
 }

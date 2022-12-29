@@ -3,6 +3,7 @@ import "./Pricing.css";
 import trainer1 from "../images/trainer1.jpg";
 import trainer2 from "../images/trainer2.jpg";
 import trainer3 from "../images/trainer3.jpg";
+import Footer from "./Footer";
 
 const Pricing = () => {
   return (
@@ -80,7 +81,9 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+        
       </div>
+      <Footer/>
     </section>
   );
 };
